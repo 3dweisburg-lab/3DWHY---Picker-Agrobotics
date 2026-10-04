@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Yan – Contact</title>
+<title>Yossi Rosenblum – Contact</title>
 <style>
   :root {
     --bg: #f4f6f8;
@@ -48,17 +48,26 @@
     text-align: center;
   }
   .avatar {
-    width: 72px;
-    height: 72px;
+    position: relative;
+    width: 112px;
+    height: 112px;
     margin: 0 auto 16px;
     border-radius: 50%;
+    overflow: hidden;
     background: var(--accent);
     color: var(--accent-text);
-    font-size: 30px;
+    font-size: 44px;
     font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .avatar img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   h1 { margin: 0 0 4px; font-size: 24px; }
   .role { margin: 0 0 24px; color: var(--muted); font-size: 15px; }
@@ -80,15 +89,19 @@
 </head>
 <body>
   <main class="card">
-    <div class="avatar">Y</div>
-    <h1>Yan</h1>
-    <p class="role">3dwhy.co.il</p>
+    <div class="avatar">
+      <span>Y</span>
+      <img src="photo.jpg" alt="Yossi Rosenblum" onerror="this.remove()">
+    </div>
+    <h1>Yossi Rosenblum</h1>
+    <p class="role">picker-ag.com</p>
 
     <a class="btn primary" href="contact.vcf" download="contact.vcf">Save contact</a>
-    <a class="btn secondary" href="tel:+972503047511">Call me</a>
-    <a class="btn secondary" href="https://www.3dwhy.co.il">Visit website</a>
+    <a class="btn secondary" href="tel:+972525014936">Call</a>
+    <a class="btn secondary" href="mailto:Yossi@picker-ag.com">Send email</a>
+    <a class="btn secondary" href="https://picker-ag.com/">Visit website</a>
 
-    <p class="hint">On Android, tap the downloaded file (or the "Open" button in your browser) to add me to your contacts.</p>
+    <p class="hint">On Android, tap the downloaded file (or the "Open" button in your browser) to add the contact.</p>
   </main>
 </body>
 </html>
