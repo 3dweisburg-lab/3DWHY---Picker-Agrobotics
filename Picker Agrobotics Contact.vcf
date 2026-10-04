@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Picker Agrobotics;;;;
+FN:Picker Agrobotics
+ORG:Picker Agrobotics
+X-ABShowAs:COMPANY
+TEL;TYPE=WORK:+972525014936
+EMAIL;TYPE=WORK:Office@picker-ag.com
+URL;TYPE=WORK:https://picker-ag.com/
+ADR;TYPE=WORK:;;;;;;Israel
+END:VCARD
